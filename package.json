@@ -12,7 +12,8 @@
     "build": "phenomic build",
     "pretest": "npm run lint",
     "test": "npm run build",
-    "deploy": "gh-pages-deploy",
+    "predeploy": "npm run build",
+    "deploy": "./scripts/deploy.sh",
     "clean-source": "rimraf README.md src webroot package.json"
   },
   "phenomic": {
