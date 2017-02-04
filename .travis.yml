@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - '5'
+  - '4'
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: ./scripts/deploy.sh
+  'on':
+    branch: master
+    node: '5'
+env:
+  global:
+    - secure: >-
+        H2E2mhv3omgcBY+pCPkfBl3THg+OP/xfkSIwCXTCrsy3EGIcMmYOlEbmiipQD2UIOu6jM8BW4JUHqm2zhKH9+iA45XhA/igKm0tuaf7Aovc/qL3jp6dnN/AecLffh6TUH6vsXbtFh9ymTLR+w4VB61U83PzDJOs7HadggZMiQb7GfoeyXkbGze0A6BYpjhsNhUFZ83qlNLiSRnn8EBBCPAr44eLnpqN0CgVTvHKyfFgY5Ll7pu7gsQuUrVLi0CBqdplLeHq5l3KF2apQeq872VTyHdJeNZI8lF8ukhVKmmijP56HmrQJO2b6bTjmzNRe+bYvQyvY9cQ+9pEn6eKZe1jVcyRKIotyGTfzaclGWDH0uMNpK9HqgSOLy0VdpjrHISNYzlbLTqWNGG2u5RPbkaShJSMrn4riRxwmKlWzOGtsKJE4nZ9N1PUS6vbXY2oPt6wvizBDCwIW/i+DkgAFXRMbAf3Xr4irUNqTvNCFQnYPOnrJq6GkazQVfV5CbYbPetzcCLSXZemWrnvcYhsPNP2FoVTJQRsT21naS+UwzEugwMN5lNmQdHoToJXDjN5NyLYggSmqsZwBGQc2ydwYCWwgGSy01Ucj7+kwuPFib0kViLb1nh7KZVsn3AmFUcJHSI1StSzBbCcx/edBfu2CvLrD93AP+YfGbdAyrpnm9vk=
+    - GIT_DEPLOY_REPO=https://$GITHUB_TOKEN@github.com/peterjacobson/drawn-in.git
