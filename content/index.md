@@ -28,15 +28,15 @@ We see each other
 
 ---
 
-# 980 drawings until exhibition!
+## 980 drawings until exhibition!
 
-You can also collect drawings!
+**You can also help collect drawings!**
 
-I'll need the original paper drawings for the exibition: send/drop them off to me at:
+I'll need the original paper drawings for the exibition: send/drop them off to me at:  
 
-Dev Academy
-Level 2, 275 Cuba St
-Wellington, 6011
+Dev Academy  
+Level 2, 275 Cuba St  
+Wellington, 6011  
 
 ## How to host the process
 Approach two people:  

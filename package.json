@@ -3,6 +3,7 @@
   "name": "drawn-in",
   "homepage": "http://drawnin.nz/",
   "twitter": "drawninnz",
+  "facebook": "bit.do/drawnin",
   "repository": "https://github.com/peterjacobson/drawn-in.git",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
@@ -144,8 +145,5 @@
     "warning": "^3.0.0",
     "webpack": "^1.11.0",
     "whatwg-fetch": "^0.11.0"
-  },
-  "dependencies": {
-    "react-grid-gallery": "^0.3.0"
   }
 }
