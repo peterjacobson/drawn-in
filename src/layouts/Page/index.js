@@ -1,5 +1,6 @@
 import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
+import Gallery from "react-grid-gallery"
 import warning from "warning"
 import { BodyContainer, joinUri, Link } from "phenomic"
 
@@ -50,6 +51,89 @@ const Page = (
     { name: "description", content: head.description },
   ]
 
+  const IMAGES = [
+    {
+      src: 'assets/drawings/IMG_20170204_134259.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134259.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134333.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134333.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134351.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134351.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134403.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134403.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134415.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134415.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134432.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134432.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134445.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134445.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134453.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134453.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134516.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134516.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134529.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134529.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134554.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134554.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134651.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134651.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134714.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134714.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134724.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134724.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134739.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134739.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134750.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134750.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134756.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134756.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134813.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134813.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134831.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134831.jpg'
+    },
+    {
+      src: 'assets/drawings/IMG_20170204_134843.jpg',
+      thumbnail: 'assets/drawings/IMG_20170204_134843.jpg'
+    }
+  ]
+
   return (
     <div className={ styles.page }>
       <Helmet
@@ -87,6 +171,7 @@ const Page = (
             : <BodyContainer>{ body }</BodyContainer>
           }
         </div>
+        <Gallery images={IMAGES}/>
         { children }
         { footer }
       </div>
