@@ -72,7 +72,7 @@ I'm just here to throw the party.
 
 I'll need the original paper drawings for the exhibition: send/drop them off to me at:  
 
-Pete Jacobson
+Pete Jacobson  
 Dev Academy  
 Level 2, 275 Cuba St  
 Wellington, 6011  
