@@ -11,13 +11,17 @@ hero: assets/drawings/IMG_20170204_134714.jpg
 
 Drawn In asks 1000 humans to draw each other
 
-Here we see the beautiful movement of the human hand over paper
+Here we see the joyful movement of the human hand over paper
 
 We delight in an expressive line  
 
 We laugh at an accidental pig nose  
 
-**We create, boldly and together!**
+We risk our perfection and find unexpected beauty
+
+On the page
+
+And in each other
 
 <br><br>
 
