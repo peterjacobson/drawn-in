@@ -5,6 +5,10 @@ hero: assets/drawings/IMG_20170204_134714.jpg
 ---
 <br>
 
+## 976 drawings until exhibition!
+
+<br><br>
+
 **Every human is an artist**  
 
 **Each person has a unique beauty**  
@@ -51,10 +55,6 @@ And in each other
 <div height="100" overflow="hidden">
   <img alt="" src="assets/drawings/IMG_20170204_134756 (copy).jpg" class="content-break-image" maxWidth="100" display="relative"/>
 </div>
-
-<br><br>
-
-## 976 drawings until exhibition!
 
 <br><br>
 
