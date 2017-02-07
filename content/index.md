@@ -7,9 +7,9 @@ hero: assets/drawings/IMG_20170204_134714.jpg
 
 **Every human is an artist**  
 
-**Every human has their own beauty**  
+**Each person has a unique beauty**  
 
-Drawn In asks 1000 humans to draw each other
+Drawn In asks 1000 people to draw each other
 
 Here we see the joyful movement of the human hand over paper
 
