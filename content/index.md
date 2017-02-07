@@ -58,10 +58,19 @@ And in each other
 
 <br><br>
 
+### Who am I to do this?
+Am I an artist? Mmm. As much as you are. 
+I'm a regular guy, Pete, from a farm half an hour north of Wellington.  
+There is a sketch of me below - can you guess which one?  
+
+This project is about celebrating the artist in everyone. 
+I'm just here to throw the party.
+
 ### You can also help collect drawings!
 
 I'll need the original paper drawings for the exhibition: send/drop them off to me at:  
 
+Pete Jacobson
 Dev Academy  
 Level 2, 275 Cuba St  
 Wellington, 6011  
