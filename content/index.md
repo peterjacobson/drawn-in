@@ -66,6 +66,8 @@ There is a sketch of me below - can you guess which one?
 This project is about celebrating the artist in everyone. 
 I'm just here to throw the party.
 
+<br><br>
+
 ### You can also help collect drawings!
 
 I'll need the original paper drawings for the exhibition: send/drop them off to me at:  
