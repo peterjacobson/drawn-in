@@ -182,7 +182,7 @@ const Page = (
             username: 'drawninnz',
             height: '1200'
           }}
-          onLoad={() => console.log('Timeline is loaded!')}
+          onLoad={() => { }}
         />
         { children }
         { footer }
