@@ -9,23 +9,19 @@ hero: assets/drawings/IMG_20170204_134714.jpg
 
 <br><br>
 
-**Every human is an artist**  
+**Everyone is an artist**  
 
-**Each person has a unique beauty**  
+**Everyone has a unique charm**  
 
-Drawn In asks 1000 people to draw each other
+Drawn In asks 1000 people to draw each other,
 
-Here we see the joyful movement of the human hand over paper
+to experience the joy of committing ink to paper,
 
-We delight in an expressive line  
+to laugh at an accidental pig nose.  
 
-We laugh at an accidental pig nose  
+By drawing you risk a perfect facade and find unexpected beauty,
 
-We risk our perfection and find unexpected beauty
-
-On the page
-
-And in each other
+on the page, and in each other
 
 <br><br>
 
@@ -39,7 +35,7 @@ And in each other
 <div id="mc_embed_signup">
 <form action="//drawnin.us15.list-manage.com/subscribe/post?u=46dbf5fdbca43a68f20f6ee3b&amp;id=9751daadef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Get invited to the exhibition once we've collected 1000 drawings</label>
+	<label for="mce-EMAIL">Add your email below to get <b>one email</b> - an invitation to the exhibition once we've collected 1000 drawings</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_46dbf5fdbca43a68f20f6ee3b_9751daadef" tabindex="-1" value=""></div>
@@ -59,12 +55,12 @@ And in each other
 <br><br>
 
 ### Who am I to do this?
-Am I an artist? Mmm. As much as you are. 
-I'm a regular guy, Pete, from a farm half an hour north of Wellington.  
-There is a sketch of me below - can you guess which one?  
+Am I an artist? Mmm. As much as you are. I'm Pete, a 27 year old navigating friendships, family, love, work and play. I'm from a little farm half an hour north of Wellington. I lived in Manchester long enough to appreciate NZ. I love connecting with people and popping [echo chamber bubbles](https://en.wikipedia.org/wiki/Echo_chamber_(media)) - including my own.
 
-This project is about celebrating the artist in everyone. 
-I'm just here to throw the party.
+There's a sketch of me below - can you guess which one?  
+
+This project is about celebrating the artist in everyone, connecting people and having a laugh together.   
+Oh. And hosting an exhibition party. It's going to be awesome.
 
 <br><br>
 
@@ -82,14 +78,14 @@ Wellington, 6011
 ### How to host the process
 *Approach two people*  
 
-"Kia ora, do you have <1 minute - 10 minutes> to particiate in the art project Drawn In?"  
+"Kia ora, do you have <1-10> minutes to particiate in the art project Drawn In?"  
 
 "Uh... Ok?"  
 
 "Great! Here's paper and pens. You're going to draw each other. It's unlikely to be flattering. It's likely to be hilarious."  
 
 *Optional:*  
-"Here's a little poem from <Leunig> to get you in the mood:  
+"Here's a little poem by [Michael Leunig](http://www.leunig.com.au/) to get you in the mood:  
 LET IT GO  
 Let it go,  
 Let it out,  
