@@ -19,7 +19,7 @@ to experience the joy of committing ink to paper,
 
 to laugh at an accidental pig nose.  
 
-By drawing you risk a perfect facade and find unexpected beauty,
+We risk failure and find unexpected beauty,
 
 on the page, and in each other
 
