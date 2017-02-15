@@ -194,17 +194,21 @@ const Page = (
         </div>
         <LineChart data={chartData} options={chartOptions} width="600" height="250"/>        
         <Gallery images={IMAGES}/>
-        <Timeline
-          dataSource={{
-            sourceType: 'profile',
-            screenName: 'drawninnz'
-          }}
-          options={{
-            username: 'drawninnz',
-            height: '1200'
-          }}
-          onLoad={() => console.log('Timeline is loaded!')}
-        />
+        <br/><br/><br/><br/>
+        <div style={{maxWidth: 600, flex: 1, justifyContent: 'center'}}>
+          <Timeline
+            dataSource={{
+              sourceType: 'profile',
+              screenName: 'drawninnz'
+            }}
+            options={{
+              username: 'drawninnz',
+              height: '1200'
+            }}
+            onLoad={() => { }}
+            style={{flex: 1}}
+          />
+        </div>
         { children }
         { footer }
       </div>
