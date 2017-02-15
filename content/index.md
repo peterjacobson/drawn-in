@@ -5,7 +5,7 @@ hero: assets/drawings/IMG_20170204_134714.jpg
 ---
 <br>
 
-## 976 drawings until exhibition!
+## 955 drawings until exhibition!
 
 <br><br>
 
