@@ -2,6 +2,7 @@ import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 import Gallery from "react-grid-gallery"
 import { Timeline } from "react-twitter-widgets"
+import { LineChart } from "react-chartjs"
 import warning from "warning"
 import { BodyContainer, joinUri, Link } from "phenomic"
 
@@ -135,6 +136,25 @@ const Page = (
     }
   ]
 
+  // http://www.chartjs.org/docs/#line-chart-dataset-structure
+
+  const drawingData = [
+    ['1/2/17', 4]
+    ['2/2/17', 5]
+    ['4/2/17', 6]
+
+  ]
+
+  const chartData = {
+    labels: []
+    datasets: [
+      {
+        label: "# drawings",
+        data: drawingData.map
+      }
+    ]
+  } 
+
   return (
     <div className={ styles.page }>
       <Helmet
@@ -172,6 +192,7 @@ const Page = (
             : <BodyContainer>{ body }</BodyContainer>
           }
         </div>
+        <LineChart data={chartData} options={chartOptions} width="600" height="250"/>        
         <Gallery images={IMAGES}/>
         <br/><br/><br/><br/>
         <div style={{maxWidth: 600, flex: 1, justifyContent: 'center'}}>
