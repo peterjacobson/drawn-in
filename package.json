@@ -147,6 +147,7 @@
     "whatwg-fetch": "^0.11.0"
   },
   "dependencies": {
-    "react-grid-gallery": "^0.3.0"
+    "react-grid-gallery": "^0.3.0",
+    "react-twitter-widgets": "^1.2.0"
   }
 }

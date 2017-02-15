@@ -1,6 +1,7 @@
 import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 import Gallery from "react-grid-gallery"
+import { Timeline } from "react-twitter-widgets"
 import warning from "warning"
 import { BodyContainer, joinUri, Link } from "phenomic"
 
@@ -172,6 +173,17 @@ const Page = (
           }
         </div>
         <Gallery images={IMAGES}/>
+        <Timeline
+          dataSource={{
+            sourceType: 'profile',
+            screenName: 'drawninnz'
+          }}
+          options={{
+            username: 'drawninnz',
+            height: '1200'
+          }}
+          onLoad={() => console.log('Timeline is loaded!')}
+        />
         { children }
         { footer }
       </div>
