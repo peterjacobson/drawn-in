@@ -109,6 +109,11 @@ A path on which to travel."
 *Invite them to the exhibition, tell them to keep up with the project and exhibition at drawnin.nz*
 
 **Ka pai!**
-<br><br><br><br><br>
+
+<br><br>
+
+<a class="twitter-timeline" href="https://twitter.com/drawninnz">Tweets by drawninnz</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br><br>
 
 ## A few of the drawings so far...
