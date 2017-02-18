@@ -139,29 +139,51 @@ const Page = (
   // http://www.chartjs.org/docs/#line-chart-dataset-structure
 
   const drawingData = [
-    ['1/2/17', 4],
-    ['2/2/17', 5],
-    ['3/2/17', 6]
+    ['26/1/17', 2],
+    ['27/1/17', 2],
+    ['28/1/17', 2],
+    ['29/1/17', 4],
+    ['30/1/17', 6],
+    ['31/1/17', 4],
+    ['1/2/17', 0],
+    ['2/2/17', 0],
+    ['3/2/17', 0],
+    ['4/2/17', 0],
+    ['5/2/17', 0],
+    ['6/2/17', 2],
+    ['7/2/17', 2],
+    ['8/2/17', 3],
+    ['9/2/17', 0],
+    ['10/2/17', 2],
+    ['11/2/17', 2],
+    ['12/2/17', 0],
+    ['13/2/17', 6],
+    ['14/2/17', 8],
+    ['15/2/17', 3],
+    ['16/2/17', 2],
+    ['17/2/17', 0],
+    ['18/2/17', 0],
   ]
 
+  const addDrawings = (accumulator, datapoint) => {
+    return accumulator + datapoint[1]
+  }
   const yData = drawingData.map((datapoint)=>{return datapoint[0]})
   const drawingsDoneToDate = drawingData.map((datapoint, index)=>{
     return drawingData
       .slice(0, index + 1)
-      .reduce((prev, datapoint) => {
-        return prev + datapoint[1]
-      }, 0)
+      .reduce(addDrawings, 0)
   })
-  // console.log({xData});
 
   const chartData = {
-    labels: yData,//['1/2/17', '2/2/17', '3/2/17'],
+    yLabels: ["drawings collected"],
+    labels: yData,
     datasets: [
       {
         label: "# drawings",
-        fillColor: "rgba(220,220,220,0.2)",
-        strokeColor: "rgba(220,220,220,1)",
-        pointColor: "rgba(220,220,220,1)",
+        fillColor: "rgba(52,166,95,0.2)",
+        strokeColor: "#34A65F",
+        pointColor: "#34A65F",
         pointStrokeColor: "#fff",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(220,220,220,1)",
@@ -170,7 +192,10 @@ const Page = (
     ]
   }
 
-  // const chartOptions = {}
+  const chartOptions = {
+    animate: true,
+    responsive: true
+  }
 
   return (
     <div className={ styles.page }>
@@ -211,7 +236,7 @@ const Page = (
         </div>
         <Gallery images={IMAGES}/>
         <br/><br/>
-        <Line data={chartData} width="600" height="250"/>
+        <Line data={chartData} options={chartOptions} height="250"/>
         <br/><br/>
         <div style={{maxWidth: 600, flex: 1, justifyContent: 'center'}}>
           <Timeline
