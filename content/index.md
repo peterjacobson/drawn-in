@@ -3,11 +3,6 @@ title: Drawn in
 layout: Homepage
 hero: assets/drawings/IMG_20170204_134714.jpg
 ---
-<br>
-
-## 955 drawings until exhibition!
-
-<br><br>
 
 **Everyone is an artist**  
 
