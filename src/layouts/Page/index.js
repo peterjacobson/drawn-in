@@ -138,22 +138,29 @@ const Page = (
 
   // http://www.chartjs.org/docs/#line-chart-dataset-structure
 
-  const drawingData = [
-    ['1/2/17', 4]
-    ['2/2/17', 5]
-    ['4/2/17', 6]
-
-  ]
+  // const drawingData = [
+  //   ['1/2/17', 4]
+  //   ['2/2/17', 5]
+  //   ['3/2/17', 6]
+  // ]
 
   const chartData = {
-    labels: []
+    labels: ['1/2/17', '2/2/17', '3/2/17'],
     datasets: [
       {
         label: "# drawings",
-        data: drawingData.map
+        fillColor: "rgba(220,220,220,0.2)",
+        strokeColor: "rgba(220,220,220,1)",
+        pointColor: "rgba(220,220,220,1)",
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(220,220,220,1)",
+        data: [4, 8, 16]
       }
     ]
   } 
+
+  // const chartOptions = {}
 
   return (
     <div className={ styles.page }>
@@ -192,7 +199,7 @@ const Page = (
             : <BodyContainer>{ body }</BodyContainer>
           }
         </div>
-        <LineChart data={chartData} options={chartOptions} width="600" height="250"/>        
+        <LineChart data={chartData} width="600" height="250"/>        
         <Gallery images={IMAGES}/>
         <br/><br/><br/><br/>
         <div style={{maxWidth: 600, flex: 1, justifyContent: 'center'}}>
