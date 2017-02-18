@@ -9,8 +9,7 @@ import { BodyContainer, joinUri, Link } from "phenomic"
 import Button from "../../components/Button"
 import Loading from "../../components/Loading"
 
-import drawingData from "../../drawingData"
-console.log({drawingData});
+// import drawingData from "../../drawingData"
 
 import styles from "./index.css"
 
