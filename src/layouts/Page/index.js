@@ -2,7 +2,7 @@ import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 import Gallery from "react-grid-gallery"
 import { Timeline } from "react-twitter-widgets"
-import { LineChart } from "react-chartjs"
+import { Line } from "react-chartjs"
 import warning from "warning"
 import { BodyContainer, joinUri, Link } from "phenomic"
 
@@ -138,14 +138,24 @@ const Page = (
 
   // http://www.chartjs.org/docs/#line-chart-dataset-structure
 
-  // const drawingData = [
-  //   ['1/2/17', 4]
-  //   ['2/2/17', 5]
-  //   ['3/2/17', 6]
-  // ]
+  const drawingData = [
+    ['1/2/17', 4],
+    ['2/2/17', 5],
+    ['3/2/17', 6]
+  ]
+
+  const yData = drawingData.map((datapoint)=>{return datapoint[0]})
+  const drawingsDoneToDate = drawingData.map((datapoint, index)=>{
+    return drawingData
+      .slice(0, index + 1)
+      .reduce((prev, datapoint) => {
+        return prev + datapoint[1]
+      }, 0)
+  })
+  // console.log({xData});
 
   const chartData = {
-    labels: ['1/2/17', '2/2/17', '3/2/17'],
+    labels: yData,//['1/2/17', '2/2/17', '3/2/17'],
     datasets: [
       {
         label: "# drawings",
@@ -155,10 +165,10 @@ const Page = (
         pointStrokeColor: "#fff",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(220,220,220,1)",
-        data: [4, 8, 16]
+        data: drawingsDoneToDate
       }
     ]
-  } 
+  }
 
   // const chartOptions = {}
 
@@ -199,9 +209,10 @@ const Page = (
             : <BodyContainer>{ body }</BodyContainer>
           }
         </div>
-        <LineChart data={chartData} width="600" height="250"/>        
         <Gallery images={IMAGES}/>
-        <br/><br/><br/><br/>
+        <br/><br/>
+        <Line data={chartData} width="600" height="250"/>
+        <br/><br/>
         <div style={{maxWidth: 600, flex: 1, justifyContent: 'center'}}>
           <Timeline
             dataSource={{
