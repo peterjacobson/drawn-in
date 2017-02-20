@@ -3,7 +3,11 @@ title: Drawn in
 layout: Homepage
 hero: assets/drawings/IMG_20170204_134714.jpg
 ---
+<div height="100" overflow="hidden">
+  <img alt="" src="assets/drawings/IMG_20170204_134756 (copy).jpg" class="content-break-image" maxWidth="100" display="relative"/>
+</div>
 
+<br><br>
 **Everyone is an artist**  
 
 **Everyone has a unique charm**  
@@ -44,7 +48,7 @@ on the page, and in each other
 <br><br>
 
 <div height="100" overflow="hidden">
-  <img alt="" src="assets/drawings/IMG_20170204_134756 (copy).jpg" class="content-break-image" maxWidth="100" display="relative"/>
+  <img alt="" src="assets/drawings/IMG_20170204_134831 (copy).jpg" class="content-break-image" maxWidth="100" display="relative"/>
 </div>
 
 <br><br>
@@ -59,14 +63,33 @@ Oh. And hosting an exhibition party. It's going to be awesome.
 
 <br><br>
 
-### You can also help collect drawings!
+<div height="100" overflow="hidden">
+<img alt="" src="assets/drawninfestivalofelements.jpg" class="content-break-image" maxWidth="100" display="relative"/>
+</div>
 
-I'll need the original paper drawings for the exhibition: send/drop them off to me at:  
+<br><br>
+
+### You can co-host this project with me!
+
+**If any of these tickle your fancy:**    
+pop your own bubble, meet some different folk...  
+gift a challenging creative experience...  
+co-design a awesome exhibition...  
+have a laugh with friends...   
+etc...
+
+All you need is  
+- $5 for 2x notebooks and pens,
+- 5 minutes sometimes
+
+We'll need the original paper drawings for the exhibition: you can send/drop them off to me at:  
 
 Pete Jacobson  
 Dev Academy  
 Level 2, 275 Cuba St  
 Wellington, 6011  
+
+Give me a bell at [peterjacobson.nz@gmail.com](peterjacobson.nz@gmail.com) to discuss!
 
 <br><br>
 
@@ -77,17 +100,19 @@ Wellington, 6011
 
 "Uh... Ok?"  
 
-"Great! Here's paper and pens. You're going to draw each other. It's unlikely to be flattering. It's likely to be hilarious."  
+"Great! Here's paper and pens. You're going to draw each other. It's unlikely to be flattering. It's likely to be hilarious. A big part of this is letting go of judgement - appreciating whatever comes out of your pen"  
 
-*Optional:*  
-"Here's a little poem by [Michael Leunig](http://www.leunig.com.au/) to get you in the mood:  
-LET IT GO  
-Let it go,  
-Let it out,  
-Let it all unravel,  
-Let it free  
-And it will be  
-A path on which to travel."  
+  *Optional:*  
+  *"Here's a little poem by [Michael Leunig](http://www.leunig.com.au/) to get you in the mood:""*  
+```
+     LET IT GO     
+     Let it go,     
+     Let it out,     
+     Let it all unravel,     
+     Let it free     
+     And it will be     
+     A path on which to travel."     
+```
 
 "You have <1-10> minutes to draw each other. Be bold. Go!"
 
