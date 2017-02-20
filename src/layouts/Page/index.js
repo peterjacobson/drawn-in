@@ -234,7 +234,7 @@ const Page = (
         >
           <div className={ styles.header }>
             <div className={ styles.wrapper }>
-              <h1 className={ styles.heading }>{  }</h1>
+              <h1 className={ styles.heading } style={{fontSize: '4rem'}}>{ head.title }</h1>
               {
                 head.cta &&
                 <Link to={ head.cta.link }>
