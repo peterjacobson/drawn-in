@@ -98,7 +98,10 @@
   },
   "eslintConfig": {
     "root": true,
-    "extends": "./node_modules/phenomic/lib/eslint-config-recommended/index.js"
+    "extends": "./node_modules/phenomic/lib/eslint-config-recommended/index.js",
+    "rules": {
+      "no-undef": "warn"
+    }
   },
   "stylelint": {
     "extends": "./node_modules/phenomic/lib/stylelint-config-recommended/index.js"
