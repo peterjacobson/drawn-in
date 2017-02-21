@@ -94,35 +94,45 @@ Give me a bell at [peterjacobson.nz@gmail.com](peterjacobson.nz@gmail.com) to di
 <br><br>
 
 ### How to host the process
+This is a rough guide to get you started. Modify it as you like.  
+Key elements are:
+  - respect
+  - playfulness
+  - humour  
+
 *Approach two people*  
 
-"Kia ora, do you have <1-10> minutes to particiate in the art project Drawn In?"  
+"Kia ora, I'm getting 1000 people to draw each other for the project "Drawn in". Do you have 2 minutes to particiate in this project? It's unlikely to be flattering. It's likely to be hilarious. A big part of this is letting go of judgement - appreciating whatever comes out of your pen"  
 
 "Uh... Ok?"  
 
-"Great! Here's paper and pens. You're going to draw each other. It's unlikely to be flattering. It's likely to be hilarious. A big part of this is letting go of judgement - appreciating whatever comes out of your pen"  
+"Great! Here's paper and pens. So I'm going to read you a poem to get you in the mood, then you'll draw each other."  
 
-  *Optional:*  
-  *"Here's a little poem by [Michael Leunig](http://www.leunig.com.au/) to get you in the mood:""*  
-```
-     LET IT GO     
+"This poem is by cartoonist [Michael Leunig](http://www.leunig.com.au/), it's called 'Let it go'""  
+```    
      Let it go,     
      Let it out,     
-     Let it all unravel,     
-     Let it free     
-     And it will be     
-     A path on which to travel."     
+     Let it all unravel     
+     Let it free,     
+     And it will be,     
+     A path on which to travel"     
 ```
+*pause*  
 
-"You have <1-10> minutes to draw each other. Be bold. Go!"
+"You may now draw each other. 2 minutes starting now!"
 
-*They draw. Hold a space of focus and humour. Maybe laugh with genuine joy at their drawings as they go. Encourage them*
+*They draw. Hold a space of focus and humour. Maybe laugh with genuine joy at their drawings as they go. Encourage them. Exact timing isn't important.*
+
+"You have 1 minute left..."
 
 "You have 30 seconds left..."  
 
 "3... 2... 1... Pens down!"
 
-"Now, on the back of the drawing, write your full name. Now write the other person's first name underneath"
+"Now, on the back of the drawing, write  
+"Artist: <Your Name>"  
+and underneath that  
+"Subject: <Name of Person you Drew>"
 
 *Let them see and enjoy each other's drawings*  
 
