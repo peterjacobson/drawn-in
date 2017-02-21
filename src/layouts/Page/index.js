@@ -227,6 +227,7 @@ const Page = (
       <Helmet
         title={ metaTitle }
         meta={ meta }
+        script={[{src: './../../google-analytics.js', type: 'text/javascript'}]}
       />
       {
         <div
