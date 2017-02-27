@@ -157,6 +157,7 @@
     "react-dom": "^15.4.2",
     "react-ga": "^2.1.2",
     "react-grid-gallery": "^0.3.0",
-    "react-twitter-widgets": "^1.2.0"
+    "react-twitter-widgets": "^1.2.0",
+    "rimraf": "^2.6.1"
   }
 }
