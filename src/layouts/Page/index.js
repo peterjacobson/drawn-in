@@ -187,7 +187,8 @@ const Page = (
     ['', 0],
     ['', 0],
     ['', 0],
-    ['13 March', 0]
+    ['', 0],
+    ['14 March', 8]
   ]
 
   const addDrawings = (accumulator, datapoint) => {
